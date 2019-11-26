@@ -122,3 +122,7 @@ footer {
 footer div {
 	 flex: 1 1 auto;
 }
+
+footer div#indent {
+	 margin-left: 3.5rem;
+}
