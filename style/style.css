@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'TeXGyreAdventor';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./TeX-Gyre-Adventor/texgyreadventor-regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'TeXGyreAdventor';
+	font-style: normal;
+	font-weight: bold;
+	src: url('./TeX-Gyre-Adventor/texgyreadventor-bold.woff') format('woff');
+}
+@font-face {
+	font-family: 'TeXGyreAdventor';
+	font-style: italic;
+	font-weight: normal;
+	src: url('./TeX-Gyre-Adventor/texgyreadventor-italic.woff') format('woff');
+}
+@font-face {
+	font-family: 'TeXGyreAdventor';
+	font-style: italic;
+	font-weight: bold;
+	src: url('./TeX-Gyre-Adventor/texgyreadventor-bolditalic.woff') format('woff');
+}
+
+
+
+html,
+body
+{
+	background: #263238;
+	color: #a4b6bf;
+	font-family: 'TeXGyreAdventor', "Century Gothic", 'Yu Gothic', 'Raleway', "STHeiti", sans-serif;
+	font-weight: 300;
+}
+
+html {
+	font-size:16px;
+}
+
+
+h1 {
+	font-weight: normal;
+	line-height: 4rem;
+	text-align: center;
+	
+	border-bottom: 1px solid #808e95;
+}
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 4rem
+}
+
+h3 {
+	font-size: 1.25rem;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 1.125rem;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+em {
+	font-weight: bold;
+	font-style: italic;
+}
+
+a
+ {
+	color: #4d9cb3;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer; 
+}
+
+
+ul,
+ol {
+    padding-left: 2.5rem;
+}
+
+li {
+	margin-top: 1.25rem;
+	list-style-type: none;
+}
+
+li p{
+	margin: 0;
+	
+	font-size: 0.8rem;
+}
+
+.container
+{
+     margin: 0 auto;
+     max-width: 720px; 
+}
+
+section {
+
+	margin-top: 3.5rem;
+}
+
+footer {
+	border-top: 1px solid #808e95;
+	margin-top: 3.5rem;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2.5rem;
+	width: 100%;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+
+footer div {
+	 flex: 1 1 auto;
+}
